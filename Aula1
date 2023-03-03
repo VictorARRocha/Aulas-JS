@@ -1,0 +1,155 @@
+/*let numero = 10
+let numero2 = 20
+let numero3 = 10 + 20
+let numero4 = 50
+
+
+
+
+
+let soma = numero + numero2
+let sub = numero - numero2
+let div = numero / numero2
+let mult = numero * numero2
+let numero5 = numero4
+
+console.log(soma)
+console.log(sub)
+console.log(div)
+console.log(mult)
+console.log(numero4)
+console.log(numero5)
+
+
+let b = 1
+let a = 1
+
+b += a //b = b + a
+console.log(b)
+
+b -= a // mesma coisa soq subtração
+console.log(b)
+
+b /= a
+console.log(b)
+
+b *= a
+console.log(b)
+
+b %= a
+console.log(b)
+
+
+function compras(trabalhos1,trabalhos2)
+{
+  const comprarsorvete = trabalhos1 || trabalhos2
+  const comprarTv50 = trabalhos1 && trabalhos
+  const comprarTv32 = trabalhos1 !== trabalhos2
+  const manterSaudavel = !comprarsorvete
+
+  return(comprarsorvete,comprarTv50,comprarTv32,manterSaudavel)
+
+}
+console.log(compras(false,false))
+
+//comprarando igualdade
+console.log("(01)", '1' == 1)
+
+//comprarando se os valores são do mesmo tipo
+console.log("(01)", '1' === 1)
+
+//comprarando a diferença
+console.log("(01)", '1' != 1)
+
+//comparando se são de tipos diferentes
+console.log("(03)", '3' !== 1)
+
+//comparando se é maior
+console.log("(01)", '5' > 1)
+
+//menor
+console.log("(01)", '5' < 1)
+
+//maior igual
+console.log("(01)", '5' >= 1)
+
+//menor igual
+console.log("(01)", '5' <= 1)
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+let peso = 70
+let altura = 1.98
+let imc = peso / (altura * altura)
+
+if (imc < 18.4 ){
+  console.log("Voce está abaixo do peso ideal")
+}
+else if (imc > 25 ){
+  console.log("voce esta acima do peso ideal")
+}
+else if (imc > 18.5 && imc < 24.9 ){
+  console.log("voce está no peso ideal")
+} */
+
+
+
+let valores = [7.7, 8.5, 5.5]
+
+console.log(valores[0], valores[3])
+console.log(valores)
+
+valores[4] = 10
+console.log(valores.length)
+
+valores.push({id:3} ,false,null,'teste')
+console.log(valores)
+
+valores.pop()
+console.log(valores)
+
+delete valores[0]
+console.log(typeof valores)
+console.log(valores)
+
+let calculo = [10 , 15]
+
+
+
+
+
+
+
+
+
+let valores = [7.7, 8.5, 5.5]
+
+console.log(valores[0], valores[3])
+console.log(valores)
+
+valores[4] = 10
+console.log(valores.length)
+
+valores.push({id:3} ,false,null,'teste')
+console.log(valores)
+
+valores.pop()
+console.log(valores)
+
+delete valores[0]
+console.log(typeof valores)
+console.log(valores)
+
+let calculo = [10 , 15]
+let resultado = calculo[0] + calculo[1]
+console.log(resultado)

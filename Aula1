@@ -85,53 +85,6 @@ console.log("(01)", '5' <= 1)
 
 
 
-
-
-/*
-let peso = 70
-let altura = 1.98
-let imc = peso / (altura * altura)
-
-if (imc < 18.4 ){
-  console.log("Voce está abaixo do peso ideal")
-}
-else if (imc > 25 ){
-  console.log("voce esta acima do peso ideal")
-}
-else if (imc > 18.5 && imc < 24.9 ){
-  console.log("voce está no peso ideal")
-} */
-
-
-
-let valores = [7.7, 8.5, 5.5]
-
-console.log(valores[0], valores[3])
-console.log(valores)
-
-valores[4] = 10
-console.log(valores.length)
-
-valores.push({id:3} ,false,null,'teste')
-console.log(valores)
-
-valores.pop()
-console.log(valores)
-
-delete valores[0]
-console.log(typeof valores)
-console.log(valores)
-
-let calculo = [10 , 15]
-
-
-
-
-
-
-
-
-
 let valores = [7.7, 8.5, 5.5]
 
 console.log(valores[0], valores[3])
